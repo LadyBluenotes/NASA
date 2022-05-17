@@ -1,0 +1,40 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Starting page */
+
+body{
+  background: black;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 6em;
+  font-weight: 400;
+  text-align: left;
+
+  animation: fadeIn 3.5s;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
