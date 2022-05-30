@@ -12,24 +12,23 @@
 
 body{
   background: black;
-  background-size: cover;
+  background-position: center;
 }
 
 h1 {
   color: white;
   text-align: center;
-  font-size: 6em;
-  font-weight: 600;
-  letter-spacing: 0.2em;
+  font-size: 8em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-align: left;
   text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.288), 10px 10px 10px rgba(255, 255, 255, 0.212), 0px 0px 0px rgba(255, 255, 255, 0.1);
+  
+  float: left;
+  position: absolute;
+  bottom: 0;
 
   animation: fadeIn 3.5s;
-}
-
-img{
-  display: block;
-  margin: 0 auto;
 }
 
 @keyframes fadeIn {
@@ -40,3 +39,46 @@ img{
     opacity: 1;
   }
 }
+
+div {
+  float: right;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+  background-color: #ffffff63;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  overflow: hidden;
+  transition: 1s all ease;
+  border-radius: 10px;
+}
+
+button:hover{
+  background: #ffffff6c;
+  border: none;
+  content: "";
+  transition: all 0.6s ease;
+  padding: 6px;
+}
+
+img {
+  display: flex;
+  margin: auto;
+  height: 500px;
+}
+
+iframe {
+  display: flex;
+  margin: auto;
+  height: 500px;
+}
+

@@ -16,10 +16,15 @@ function getFetch(){
         } else if (data.media_type === 'video'){
           document.querySelector('iframe').src = data.url
         }
-
-        // Where to put title and explanation
-        document.querySelector('h2').innerHTML = data.title
-        document.querySelector('p').innerHTML = data.explanation
+        
+        // On button press, show image/video, description and title and then hide h1.
+        document.querySelector('button').addEventListener('click', function(){
+          document.querySelector('img').src = '';
+          document.querySelector('iframe').src = '';
+          document.querySelector('h1').setAttribute('style', 'display: none;')
+        }
+      )
+      
       })
       .catch(err => {
           console.log(`error ${err}`)
