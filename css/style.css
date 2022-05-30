@@ -30,69 +30,10 @@ h1 {
   text-align: left;
   text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.288), 10px 10px 10px rgba(255, 255, 255, 0.212), 0px 0px 0px rgba(255, 255, 255, 0.1);
   padding-top: 20rem;
+  width: 50%;
+  margin: 0;
 
   animation: fadeIn 3.5s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-input {
-  border: none;
-  border-radius: 10px;
-  padding: 5px;
-  width: 200px;
-  background-color: #ffffff63;
-  margin: 4px 0;
-}
-
-button {
-  color: rgb(0, 0, 0);
-  padding: 3px;
-  text-decoration: none;
-  border: 2px solid #ffffff;
-  transition: 1s all ease;
-  border-radius: 10px;
-  margin: 4px 4px 0 0;
-}
-
-button:hover{
-  background: #0000006c;
-  color: white;
-  border: 1px solid white;
-  content: "";
-  transition: all 0.6s ease;
-  padding: 6px;
-}
-
-img {
-  margin: auto;
-  display: none;
-}
-
-iframe {
-  display: none;
-  margin: auto;
-}
-
-section{
-  width: 100%;
-  margin: auto;
-}
-
-section > img {
-  height: 500px;
-}
-
-section > iframe {
-  width: 700px;
-  height: 500px;
 }
 
 h2 {
@@ -102,6 +43,7 @@ h2 {
   font-weight: 800;
   letter-spacing: 0.1em;
   bottom: 0;
+  width: auto;
 }
 
 h3 {
@@ -132,3 +74,70 @@ p {
   border-radius: 15px;
   display: none;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 200px;
+  background-color: #ffffff63;
+  margin: 4px 4px;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  transition: 1s all ease;
+  border-radius: 10px;
+  margin: 4px 4px 5px 0;
+}
+
+button:hover{
+  background: #0000006c;
+  color: white;
+  border: 1px solid white;
+  content: "";
+  transition: all 0.6s ease;
+  padding: 6px;
+}
+
+img {
+  margin: auto;
+  display: none;
+}
+
+iframe {
+  display: none;
+  margin: auto;
+}
+
+div {
+  display: flex;
+  justify-content: right;
+}
+
+section{
+  width: 100%;
+  margin: auto;
+}
+
+section > img {
+  height: 500px;
+}
+
+section > iframe {
+  width: 700px;
+  height: 500px;
+}
+
