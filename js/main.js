@@ -1,4 +1,4 @@
-//Example fetch using pokemonapi.co
+
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
@@ -9,6 +9,10 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
+        
+        //Change background image to the the colour black when media is shown
+        document.querySelector('body').style.backgroundImage = `url('')`;
+
 
         // Hide H1 on button click
         document.querySelector('h1').setAttribute('style', 'display: none;')
@@ -17,6 +21,13 @@ function getFetch(){
         document.querySelector('h2').innerHTML = data.title
         document.querySelector('h3').innerHTML = data.date
         document.querySelector('p').innerHTML = data.explanation
+        
+        if (data.copyright !== undefined){
+          document.querySelector('h4').innerHTML = `&copy; ${data.copyright}`
+        } else (
+          document.querySelector('h4').innerHTML = 'No copyright information available'
+        )
+
 
         // On button press, show image/video, description and title.
         document.querySelector('button').addEventListener('click', function(){

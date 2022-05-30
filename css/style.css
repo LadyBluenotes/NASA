@@ -11,8 +11,12 @@
 /* Starting page */
 
 body{
-  background: black;
+  background-image: url('../img/brian-mcgowan-I0fDR8xtApA-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+  background-color: black;
   height: 100%;
   width: 100%;
 }
@@ -25,7 +29,7 @@ h1 {
   letter-spacing: 0.1em;
   text-align: left;
   text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.288), 10px 10px 10px rgba(255, 255, 255, 0.212), 0px 0px 0px rgba(255, 255, 255, 0.1);
-  bottom: 0;
+  padding-top: 20rem;
 
   animation: fadeIn 3.5s;
 }
@@ -45,6 +49,7 @@ input {
   padding: 5px;
   width: 200px;
   background-color: #ffffff63;
+  margin: 4px 0;
 }
 
 button {
@@ -52,14 +57,15 @@ button {
   padding: 3px;
   text-decoration: none;
   border: 2px solid #ffffff;
-  overflow: hidden;
   transition: 1s all ease;
   border-radius: 10px;
+  margin: 4px 4px 0 0;
 }
 
 button:hover{
-  background: #ffffff6c;
-  border: none;
+  background: #0000006c;
+  color: white;
+  border: 1px solid white;
   content: "";
   transition: all 0.6s ease;
   padding: 6px;
@@ -90,14 +96,6 @@ section > iframe {
   height: 500px;
 }
 
-p {
-  width: 70%;
-  margin: auto;
-  text-align: left;
-  color: white;
-  background: #ffffff3d;
-}
-
 h2 {
   color: white;
   text-align: center;
@@ -114,4 +112,23 @@ h3 {
   font-weight: 800;
   letter-spacing: 0.1em;
   bottom: 0;
+}
+
+h4{
+  color: white;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  bottom: 0;
+}
+
+p {
+  width: 70%;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  background: #ffffff3d;
+  border-radius: 15px;
 }
