@@ -82,7 +82,6 @@ iframe {
 }
 
 section{
-  display: block;
   width: 100%;
   margin: auto;
 }
@@ -131,4 +130,5 @@ p {
   color: white;
   background: #ffffff3d;
   border-radius: 15px;
+  display: none;
 }

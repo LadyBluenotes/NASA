@@ -17,6 +17,9 @@ function getFetch(){
         // Hide H1 on button click
         document.querySelector('h1').setAttribute('style', 'display: none;')
 
+        //Show section with media and text
+        document.querySelector('p').setAttribute('style', 'display: block;')
+
         // Add title, date and explanation to page
         document.querySelector('h2').innerHTML = data.title
         document.querySelector('h3').innerHTML = data.date
