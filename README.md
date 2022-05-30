@@ -2,7 +2,7 @@
 
 A website utilizing the NASA APOD API where the user can see the current photo of the day as well as those in the back.
 
-https://user-images.githubusercontent.com/98355961/171042382-70dab90f-c9c2-454d-a514-4def8e6e5e5d.mp4
+https://user-images.githubusercontent.com/98355961/171042427-1fe40b48-68a1-40be-9d92-30f013345cdf.mp4
 
 See the live site [here](https://welcometospace.netlify.app/)
 
