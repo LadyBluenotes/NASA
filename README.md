@@ -10,7 +10,7 @@ See the live site [here](https://welcometospace.netlify.app/)
 ## Table of Contents
 
 * [General Info](#general-info)
-* [Technologies](#technologies).
+* [Technologies](#technologies)
 
 ## General Info
 
